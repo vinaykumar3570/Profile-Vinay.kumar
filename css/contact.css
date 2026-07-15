@@ -298,6 +298,7 @@ form {
     color: var(--light-grey-color);
     font-weight: 100;
     letter-spacing: 1.1px;
+    border: 1px solid var(--primary-color);
 }
 
 input {

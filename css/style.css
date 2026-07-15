@@ -40,7 +40,7 @@
 
 
 main {
-    min-height: 10vh;
+    height: 100vh;
     background-image: -o-linear-gradient(345deg, var(--tertiary-color) 75%, var(--primary-color) 75%);
     background-image: linear-gradient(105deg, var(--tertiary-color) 75%, var(--primary-color) 75%);
 }
@@ -50,6 +50,7 @@ nav {
     position: sticky;
     top: 0;
     height: 80px;
+    /* height: 10vh; */
     width: 100%;
     -webkit-box-shadow: 1px 1px 5px var(--light-grey-color);
             box-shadow: 1px 1px 5px var(--light-grey-color);
@@ -230,7 +231,7 @@ nav ul li a.active::before {
 
 
 header {
-    height: 87vh;
+    height: 85vh;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
